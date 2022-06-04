@@ -21,7 +21,7 @@
 5. ` npx tailwindcss init -p`  👉 設定ファイル作成。 -p オプションはPostCSS構成ファイルの作成: postcss.config.js
 6. コンパイルされたcssを出力するためのdistフォルダとコンパイル前のcssを入れておくためのsrcフォルダを作成する。  
 
-   💡 フォルダ構成
+   💡 フォルダ構成  
     ├dist  
     ├node_modules  
     ├package-lock.json  
@@ -39,4 +39,4 @@
 
 13. package.json の "scripts" にbuildコマンドを追記する。
 14. ` npm run build `
-15. ` npm run dev``  （未完：開発環境を作る手順を整理する）
+15. ` npm run dev ` （未完：開発環境を作る手順を整理する）
