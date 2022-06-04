@@ -1,4 +1,4 @@
-# tailwindcss set up flow
+# Tailwind CSS set up flow
 
 公式サイト：[Get started with  Tailwind CSS](https://tailwindcss.com/docs/installation)
 
