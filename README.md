@@ -10,16 +10,15 @@
 4. Play CDN
 
 💡 今回は [2](https://tailwindcss.com/docs/installation/using-postcss) で進める。  
-🙅 4 は非推奨。試用時のみに留める。
+🙅 4 は非推奨。試用時のみに留める。（全機能は膨大なデータ量になるためCSSに制限があるため）
 
 ## 手順 📗 Tailwind CSS を PostCSSのプラグインとして使う
 
 1. ` npm init -y`  👉 package.json の生成
-2. ` npm install -D tailwindcss postcss autoprefixer `
-3. ` npm uninstall postcss ` 👉 postcss-cli に変更する
-4. ` npm i -D postcss-cli ` 👉 npm run build コマンド使用可能
-5. ` npx tailwindcss init -p`  👉 設定ファイル作成。 -p オプションはPostCSS構成ファイルの作成: postcss.config.js
-6. コンパイルされたcssを出力するためのdistフォルダとコンパイル前のcssを入れておくためのsrcフォルダを作成する。  
+2. ` npm install -D tailwindcss postcss-cli autoprefixer `
+3. ` npm i -D postcss-cli ` 👉 npm run build コマンド使用可能
+4. ` npx tailwindcss init -p`  👉 設定ファイル作成。 -p オプションはPostCSS構成ファイルの作成: postcss.config.js
+5. コンパイルされたcssを出力するためのdistフォルダとコンパイル前のcssを入れておくためのsrcフォルダを作成する。  
 
    💡 フォルダ構成  
           ├dist  
@@ -28,7 +27,7 @@
           ├package.json  
           ├src  
 
-7. tailwind.config.jsにディレクトリを指定。
+6. tailwind.config.jsにディレクトリを指定。
 8. input.css（名前は自由）を作成。
 9. 公式サイトからTailwindディレクティブをinput.cssにコピペ。
 10. VScode拡張機能 **PostCSS Language Support** を追加。（インストール済ならskip）
