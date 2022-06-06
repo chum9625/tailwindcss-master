@@ -35,8 +35,7 @@
 10. VScode拡張機能 **PostCSS Language Support** を追加。（インストール済ならskip）
 11. VScode拡張機能 Tailwind CSS IntelliSense を追加。  
    💡 補完効かない場合は設定項目追記：` "editor.quickSuggestions": {"strings": true } `
-
+12. postcss.config.js でCSS圧縮（cssnano）の設定をする。
 13. package.json の "scripts" に実行コマンドを追記する。
-    1.  ` npm run dev ` （開発用）
-    2.  ` npm run build ` （公開用）
-14. postcss.config.js でCSS圧縮（cssnano）の設定をする。
+    1.  ` npm run dev ` （開発用 - watch追加、CSS圧縮しない）
+    2.  ` npm run build ` （公開用 - CSS圧縮実行）
