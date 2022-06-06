@@ -21,11 +21,11 @@
 5. コンパイルされたcssを出力するためのdistフォルダとコンパイル前のcssを入れておくためのsrcフォルダを作成する。  
 
    💡 フォルダ構成  
-          ├dist  
-          ├node_modules  
-          ├package-lock.json  
-          ├package.json  
-          └src  
+          ├ dist  
+          ├ node_modules  
+          ├ package-lock.json  
+          ├ package.json  
+          └ src  
 
 6. tailwind.config.jsの設定。（` jit`  と読込ディレクトリ指定）
 7. input.css（名前は自由）を作成。
