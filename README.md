@@ -10,7 +10,7 @@
 4. Play CDN
 
 💡 今回は [2](https://tailwindcss.com/docs/installation/using-postcss) で進める。  
-🙅 4 は非推奨。試用時のみに留める。（全機能は膨大なデータ量によりCSSに制限があるため）
+🙅 4 は非推奨。試用時のみに留める。（CSSに制限があるため）
 
 ## 手順 📗 Tailwind CSS を PostCSSのプラグインとして使う
 
@@ -38,4 +38,4 @@
 12. postcss.config.js でCSS圧縮（cssnano）の設定をする。
 13. package.json の "scripts" に実行コマンドを追記する。
     1.  ` npm run dev ` （開発用 - watch追加、CSS圧縮しない）
-    2.  ` npm run build ` （公開用 - CSS圧縮実行）
+    2.  ` npm run build ` （公開用 - CSS圧縮実行）→　圧縮しない（要調査）2022.6.8
