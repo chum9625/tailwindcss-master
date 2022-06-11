@@ -39,3 +39,11 @@
 13. package.json の "scripts" に実行コマンドを追記する。
     1.  ` npm run dev ` （開発用 - watch追加、CSS圧縮しない）
     2.  ` npm run build ` （公開用 - CSS圧縮実行）→　圧縮しない（要調査）2022.6.8
+
+## Tailwind CSS Docs
+
+- [TailwindCSS](https://tailwindcss.com/docs/installation)
+- [TailwindCSS JP](https://tailwindcss.jp/docs/installation)
+- [daisyUI](https://daisyui.com/components/)
+- [Flowrift](https://flowrift.com/w/)
+- [CHEAT SHEET](https://nerdcave.com/tailwind-cheat-sheet)
