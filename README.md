@@ -17,8 +17,9 @@
 1. ` npm init -y`  👉 package.json の生成
 2. ` npm install -D tailwindcss postcss-cli autoprefixer `
 3. ` npm i -D postcss-cli ` 👉 npm run build コマンド使用可能
-4. ` npx tailwindcss init -p`  👉 設定ファイル作成。 -p オプションはPostCSS構成ファイルの作成: postcss.config.js
-5. コンパイルされたcssを出力するためのdistフォルダとコンパイル前のcssを入れておくためのsrcフォルダを作成する。  
+4. ` npm i -D cssnano ` 👉 build実行時に cssを minify化 
+5. ` npx tailwindcss init -p`  👉 設定ファイル作成。 -p オプションはPostCSS構成ファイルの作成: postcss.config.js
+6. コンパイルされたcssを出力するためのdistフォルダとコンパイル前のcssを入れておくためのsrcフォルダを作成する。  
 
    💡 フォルダ構成  
           ├ dist  
@@ -37,8 +38,8 @@
    💡 補完効かない場合は設定項目追記：` "editor.quickSuggestions": {"strings": true } `
 12. postcss.config.js でCSS圧縮（cssnano）の設定をする。
 13. package.json の "scripts" に実行コマンドを追記する。
-    1.  ` npm run dev ` （開発用 - watch追加、CSS圧縮しない）
-    2.  ` npm run build ` （公開用 - CSS圧縮実行）→　圧縮しない（要調査）2022.6.8
+    1.  ` npm run dev ` （開発用 - watch追加、CSS圧縮無し）
+    2.  ` npm run build ` （公開用 - CSS圧縮有り）
 
 ## Tailwind CSS Docs
 
