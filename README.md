@@ -15,11 +15,11 @@
 ## 手順 📗 Tailwind CSS を PostCSSのプラグインとして使う
 
 1. ` npm init -y`  👉 package.json の生成
-2. ` npm install -D tailwindcss postcss-cli autoprefixer `
-3. ` npm i -D postcss-cli ` 👉 npm run build コマンド使用可能
-4. ` npm i -D cssnano ` 👉 build実行時に cssを minify化 
-5. ` npx tailwindcss init -p`  👉 設定ファイル作成。 -p オプションはPostCSS構成ファイルの作成: postcss.config.js
-6. コンパイルされたcssを出力するためのdistフォルダとコンパイル前のcssを入れておくためのsrcフォルダを作成する。  
+2. ` npm i -D tailwindcss postcss-cli autoprefixer cssnano `
+   - ` npm i -D postcss-cli ` 👉 npm run build コマンド使用可能
+   - ` npm i -D cssnano ` 👉 build実行時に cssを minify化 
+3. ` npx tailwindcss init -p`  👉 設定ファイル作成。 -p オプションはPostCSS構成ファイルの作成: postcss.config.js
+4. コンパイルされたcssを出力するためのdistフォルダとコンパイル前のcssを入れておくためのsrcフォルダを作成する。  
 
    💡 フォルダ構成  
           ├ dist  
